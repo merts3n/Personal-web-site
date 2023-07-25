@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+ 
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Dikeyde (yatay merkez) */
+            justify-content: flex-start; /* Yatayda üstte hizalama */
+        }
+
+        p {
+          
+            
+            font-size: 45px;
+            position: absolute;
+            top: 80px;
+            left: 480px;
+            
+        }
+
+        /* Liste stilleri */
+        .list-container {
+            text-align: center;
+            padding: 20px; /* Gerekirse boşluk ayarlayabilirsiniz */
+            
+        }
+
+        .list {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            text-align: top;
+            
+        }
+
+        .list-item {
+            margin: 10px;
+            text-align: top;
+            
+        }
+
+        #numposition {
+ 
+           
+            top: 615px;
+            left: 40px;
+            position: absolute;
+            color:rgb(255, 255, 255);
+            font-family:garamond;
+            font-size: 24px;
+
+        }
+
+        #mailposition {
+
+            top: 645px;
+            left: 40px;
+            position: absolute;
+            color:rgb(255, 255, 255);
+            font-family:garamond;
+            font-size: 24px;
+
+
+        }
+
+        #adressposition {
+
+            color:rgb(255, 255, 255);
+            top: 200px;
+            left: 20px;
+            position: absolute;
+            font-family: 'Courier New', Courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+
+
+        }
+
+        
+  
+
+
+
+
+
+    </style>
+
+</head>
+<body style="background-image: url(images/contact.jpg);">
+
+<div class="list-container">   
+
+    <ol class="list">
+
+        <li class="list-item"><a href="index.html">Home</a></li>
+        <li class="list-item"><a href="about.html">About Me</a></li>
+        <li class="list-item"><a href="portfolio.html">Portfolio</a></li>
+        <li class="list-item"><a href="contact.html">Contact</a></li>
+
+    </ol>
+
+</div> 
+
+
+
+<address id="adressposition">  
+
+    Zemin İstanbul <br>
+    Şahkulu, Şişhane Metro Durağı,<br>
+    Meşrutiyet Caddesi, <br>
+    No:125 <br>
+
+    Beyoğlu/İSTANBUL 
+
+</address>
+
+
+    <ol>
+        <li id="numposition"><a href="tel:02123334455"></a>0212 333 44 55</li>
+        <br>
+        <li id="mailposition"><a href="mailto:mertsen341@gmail.com"></a>mertsen341@gmail.com</li>
+    </ol>
+
+
+
+</body>
+</html>

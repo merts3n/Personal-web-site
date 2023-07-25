@@ -15,8 +15,8 @@
 .photo-container {
 
     display: grid;
-    grid-template-columns: repeat(4, 386px); /* 4 tane 400px genişlikli sütun oluşturma */
-    grid-gap: 7px; /* Sütunlar arasında 10px boşluk bırakma */
+    grid-template-columns: repeat(4, 386px); 
+    grid-gap: 7px; 
 }
 
 .photo-container img {
